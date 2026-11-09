@@ -18,7 +18,7 @@ Los seis artículos son **fichas demostrativas**, no inventario publicado. No se
 5. El pedido por WhatsApp **no procesa pagos** ni confirma automáticamente la compra.
 
 ## Identidad visual
-- Colores de marca: rojo `#CC0C0B` y amarillo `#FFCA30`; blanco y negro solo como neutros de lectura.
+- Fondo unificado rojo `#CC0C0B` en toda la web, con textos y bordes blancos. Amarillo `#FFCA30` exclusivamente para los recuadros de libros y objetos.
 - Tipografía principal: Space Mono.
 - El logo vectorial en `assets/logo.svg` está trazado a partir del documento de marca proporcionado.
 - Cactus Jack es una tipografía indicada por la guía; no está incorporada porque no se adjuntó archivo de fuente ni licencia para publicarla.
