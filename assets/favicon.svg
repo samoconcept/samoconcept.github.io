@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title">
 <title id="title">SAMO CONCEPT</title>
-<rect width="512" height="512" rx="48" fill="#111111"/>
+<rect width="512" height="512" rx="48" fill="#cc0c0b"/>
 <g fill="#ffffff" stroke="#ffffff" stroke-width="1.1" stroke-linejoin="round" stroke-linecap="round">
 <path transform="translate(44 -58) scale(3.2)" d="M21,65 L11,72 L10,78 L33,101 L39,123 L37,125 L27,123 L13,115 L9,110 L6,110 L5,114 L25,128 L39,130 L45,124 L40,103 L35,94 L18,80 L16,75 L20,71 L27,70 L34,74 L46,89 L49,90 L51,86 L35,68 L29,65Z"/>
 <path transform="translate(-87.8 -416.4) scale(3.2)" d="M106,187 L104,201 L107,211 L115,223 L131,237 L139,241 L149,242 L162,238 L171,230 L174,220 L170,210 L166,211 L168,225 L162,231 L153,236 L142,236 L129,229 L117,217 L111,206 L110,191 L117,184 L133,183 L153,191 L154,187 L151,184 L135,178 L121,177 L112,181Z"/>
