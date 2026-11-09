@@ -60,3 +60,7 @@
 .about-inner .about-copy p{font-size:clamp(16px,1.7vw,22px);letter-spacing:-.035em;line-height:1.65;max-width:750px;margin:0}
 @media(max-width:900px){.hero-band-inner{min-height:clamp(430px,63vh,620px)}.about-inner{padding:70px 0 78px}}
 @media(max-width:620px){.hero-band-inner{min-height:clamp(390px,60vh,580px);padding:45px 0}.about-inner{padding:58px 0 65px}.about-inner .about-copy h2{margin-bottom:18px}}
+
+/* Header wordmark is the SAMO half of the official artwork. */
+.brand-logo{width:111px;height:48px;object-fit:contain}
+@media(max-width:620px){.brand-logo{width:91px;height:39px}}
