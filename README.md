@@ -37,3 +37,9 @@ El número `11 5009-1103` se representa internacionalmente como `5491150091103` 
 - Verificar que el enlace WhatsApp de una ficha incluye solo ese artículo.
 - Verificar que el enlace del carrito incluye todos los nombres y cantidades.
 - Probar navegación y botones en dispositivos móviles.
+
+## Idiomas y favicon
+- ES / EN disponible desde el encabezado en todas las páginas; la preferencia se conserva con `localStorage`.
+- También se traducen las fichas de demostración y el carrito. El texto predeterminado de WhatsApp permanece en español, según el pedido original.
+- Favicon monocromático `assets/favicon.svg` creado con las formas de las letras S y C del logo oficial; cargado en todas las páginas.
+- Se actualizó la sección de contacto a «¡Hablemos! :)».
