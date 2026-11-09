@@ -3,7 +3,7 @@
 Sitio estático para GitHub Pages: https://samoconcept.github.io
 
 ## Incluye
-- Landing responsive con franja roja, logo blanco y lema «Curaduría de libros y objetos», más secciones Libros y Objetos.
+- Landing responsive con portada roja y logo blanco, seguida de la sección Sobre SAMO («Un espacio para explorar el arte en todas sus formas.»), Libros y Objetos en blanco y negro.
 - Listados y fichas individuales por URL: `/producto/?id=libro-01`.
 - Carrito persistente en `localStorage` con cantidades, eliminación y límites por stock.
 - WhatsApp directo desde producto o desde carrito, con texto: “Buenas, me gustaría hacer el siguiente pedido:” y listado de artículos y cantidades.
@@ -18,9 +18,9 @@ Los seis artículos son **fichas demostrativas**, no inventario publicado. No se
 5. El pedido por WhatsApp **no procesa pagos** ni confirma automáticamente la compra.
 
 ## Identidad visual
-- Fondo unificado rojo `#CC0C0B` en toda la web, con textos y bordes blancos. Amarillo `#FFCA30` exclusivamente para los recuadros de libros y objetos.
+- Portada roja `#CC0C0B`; a partir de Sobre SAMO, el sitio usa exclusivamente blanco y negro (incluidos los recuadros del catálogo). Sin amarillo.
 - Tipografía principal: Space Mono.
-- El logo vectorial en `assets/logo.svg` está trazado a partir del documento de marca proporcionado.
+- El logotipo vectorial de `assets/logo.svg`, trazado a partir del documento de marca, se usa también en la esquina superior izquierda: respeta la letra original de Cactus Jack sin depender de un archivo de fuente.
 - Cactus Jack es una tipografía indicada por la guía; no está incorporada porque no se adjuntó archivo de fuente ni licencia para publicarla.
 
 ## Despliegue
