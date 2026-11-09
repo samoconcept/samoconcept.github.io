@@ -40,3 +40,11 @@
 .footer{background:#fff;color:#111}
 @media(max-width:900px){.hero-caption-inner{align-items:start;flex-direction:column}.hero-band-inner{min-height:330px}.about-inner{grid-template-columns:1fr;gap:20px;padding:68px 0}}
 @media(max-width:620px){.header-inner{min-height:72px}.brand-logo{width:110px;height:47px}.hero-band-inner{min-height:280px;padding:32px 0}.hero-wordmark{width:min(90vw,430px)}.hero-caption-inner{padding-top:34px;padding-bottom:40px;gap:25px}.hero-caption h1{font-size:clamp(32px,8.5vw,52px)}.hero-caption .button-row{width:100%;flex-direction:column;align-items:stretch}.hero-caption .button{width:100%}.about-inner{padding:54px 0}}
+
+/* Bilingual switch, available at desktop and mobile widths. */
+.header-actions{display:flex;justify-self:end;align-items:center;gap:24px}
+.language-switch{display:inline-flex;align-items:center;gap:7px;font-size:11px;white-space:nowrap}
+.language-switch button{border:0;border-bottom:1px solid transparent;color:#777;background:transparent;padding:7px 2px;font-size:11px;line-height:1.2}
+.language-switch button.active{border-bottom-color:#111;color:#111;font-weight:700}
+.language-switch button:hover{color:#111}
+@media(max-width:620px){.header-actions{gap:13px}.language-switch{gap:3px;font-size:10px}.language-switch button{font-size:10px;padding:5px 1px}.cart-link{gap:6px;font-size:10px}.cart-count{height:27px;width:27px}}
