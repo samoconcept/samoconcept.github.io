@@ -64,3 +64,10 @@
 /* Header wordmark is the SAMO half of the official artwork. */
 .brand-logo{width:111px;height:48px;object-fit:contain}
 @media(max-width:620px){.brand-logo{width:91px;height:39px}}
+
+/* Real cover previews: uncropped book covers, independently of placeholder object tiles. */
+.product-image--cover{background:#f7f7f7!important;color:#111!important;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.book-cover-sprite,.book-cover-img{display:block;height:90%;width:auto;max-width:90%;aspect-ratio:2 / 3;object-fit:contain}
+.book-cover-sprite{background-repeat:no-repeat;background-size:300% 100%;background-color:#fff;box-shadow:0 7px 19px rgba(0,0,0,.13)}
+.book-cover-img{box-shadow:0 7px 19px rgba(0,0,0,.13)}
+@media(max-width:620px){.book-cover-sprite,.book-cover-img{height:88%;max-width:94%}}
