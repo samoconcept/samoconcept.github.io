@@ -44,10 +44,5 @@ El número `11 5009-1103` se representa internacionalmente como `5491150091103` 
 - Favicon monocromático `assets/favicon.svg` creado con las formas de las letras S y C del logo oficial; cargado en todas las páginas.
 - Se actualizó la sección de contacto a «¡Hablemos! :)».
 
-## Prueba visual de libros (noviembre 2026)
-Las tres fichas de demostración de Libros usan las portadas aportadas para:
-- `The Third Eye: Early Photographs` — George Harrison.
-- `David Lynch: His Work, His World` — Tom Huddleston.
-- `Kitchen Confidential: Adventures in the Culinary Underbelly` — Anthony Bourdain.
-
-Se eliminó el sprite AVIF de baja calidad. Cada libro ahora carga una imagen individual desde la fuente editorial en `image_url` de `assets/catalog.js`, con escalado proporcional `object-fit: contain` y sin recortes. En el futuro podrán subirse imágenes propias a Supabase Storage para evitar dependencias de terceros. Ninguna de estas fichas implica stock confirmado ni un precio definitivo.
+## Estado de Libros
+Se retiraron las tres fichas y portadas de prueba. La sección Libros queda con «Próximamente disponible» hasta incorporar el catálogo definitivo. Objetos, carrito y pedidos por WhatsApp se conservan.
