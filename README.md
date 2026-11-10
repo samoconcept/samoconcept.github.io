@@ -50,4 +50,4 @@ Las tres fichas de demostración de Libros usan las portadas aportadas para:
 - `David Lynch: His Work, His World` — Tom Huddleston.
 - `Kitchen Confidential: Adventures in the Culinary Underbelly` — Anthony Bourdain.
 
-Las tapas están optimizadas en un único sprite AVIF embebido en `assets/book-covers.js` y se identifican mediante `coverIndex` en `assets/catalog.js`. En la futura integración con Supabase se puede agregar `image_url` individual a cada registro; `assets/app.js` ya admite esa propiedad. Ninguna de estas fichas implica stock confirmado ni un precio definitivo.
+Se eliminó el sprite AVIF de baja calidad. Cada libro ahora carga una imagen individual desde la fuente editorial en `image_url` de `assets/catalog.js`, con escalado proporcional `object-fit: contain` y sin recortes. En el futuro podrán subirse imágenes propias a Supabase Storage para evitar dependencias de terceros. Ninguna de estas fichas implica stock confirmado ni un precio definitivo.
