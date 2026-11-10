@@ -45,11 +45,7 @@ function footer(){return '<footer class="footer"><div class="shell footer-inner"
 function art(p){
  const label=escapeHtml(p.name);
  if(p.image_url){
-  return '<div class="product-image product-image--cover"><img class="book-cover-img" src="'+escapeHtml(p.image_url)+'" alt="Tapa de '+label+'" loading="lazy"></div>';
- }
- if(Number.isInteger(p.coverIndex)&&p.coverIndex>=0&&p.coverIndex<=2&&window.SAMO_BOOK_COVERS){
-  const x=[0,50,100][p.coverIndex];
-  return '<div class="product-image product-image--cover"><div class="book-cover-sprite" role="img" aria-label="Tapa de '+label+'" style="background-image:url('+window.SAMO_BOOK_COVERS+');background-position:'+x+'% 50%"></div></div>';
+  return '<div class="product-image product-image--cover"><img class="book-cover-img" src="'+escapeHtml(p.image_url)+'" alt="Tapa de '+label+'" loading="lazy" decoding="async" referrerpolicy="no-referrer"></div>';
  }
  return '<div class="product-image" style="background:'+p.bg+';color:'+(p.fg||'#ffffff')+'"><span class="item-number">SAMO / '+escapeHtml(p.id.toUpperCase())+'</span><span class="item-asterisk" aria-hidden="true">✳</span><span class="item-art">'+escapeHtml(p.art)+'</span><span class="item-category">'+(p.category==='libros'?'Libros':'Objetos')+'</span></div>'
 }
