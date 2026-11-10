@@ -43,3 +43,11 @@ El número `11 5009-1103` se representa internacionalmente como `5491150091103` 
 - También se traducen las fichas de demostración y el carrito. El texto predeterminado de WhatsApp permanece en español, según el pedido original.
 - Favicon monocromático `assets/favicon.svg` creado con las formas de las letras S y C del logo oficial; cargado en todas las páginas.
 - Se actualizó la sección de contacto a «¡Hablemos! :)».
+
+## Prueba visual de libros (noviembre 2026)
+Las tres fichas de demostración de Libros usan las portadas aportadas para:
+- `The Third Eye: Early Photographs` — George Harrison.
+- `David Lynch: His Work, His World` — Tom Huddleston.
+- `Kitchen Confidential: Adventures in the Culinary Underbelly` — Anthony Bourdain.
+
+Las tapas están optimizadas en un único sprite AVIF embebido en `assets/book-covers.js` y se identifican mediante `coverIndex` en `assets/catalog.js`. En la futura integración con Supabase se puede agregar `image_url` individual a cada registro; `assets/app.js` ya admite esa propiedad. Ninguna de estas fichas implica stock confirmado ni un precio definitivo.
